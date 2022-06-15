@@ -15,14 +15,16 @@ body {
 	height: 100vh;
 	margin: -20px 0 50px;
 }
-
+img.header {
+	height: 200px;
+}
 h1 {
 	font-weight: bold;
 	margin: 0;
 }
 
 h2 {
-	text-align: center;
+	display: inline-block;
 }
 
 p {
@@ -46,8 +48,8 @@ a {
 
 button {
 	border-radius: 20px;
-	border: 1px solid #FF4B2B;
-	background-color: #FF4B2B;
+	border: 1px solid #68A7AD;
+	background-color: #68A7AD;
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -160,9 +162,9 @@ input {
 }
 
 .overlay {
-	background: #FF416C;
-	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	background: #68A7AD;
+	background: -webkit-linear-gradient(to right, #68A7AD, #99C4C8);
+	background: linear-gradient(to right, #68A7AD, #99C4C8);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -211,42 +213,9 @@ input {
 	transform: translateX(20%);
 }
 
-.social-container {
-	margin: 20px 0;
-}
 
-.social-container a {
-	border: 1px solid #DDDDDD;
-	border-radius: 50%;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0 5px;
-	height: 40px;
-	width: 40px;
-}
 
-footer {
-    background-color: #222;
-    color: #fff;
-    font-size: 14px;
-    bottom: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 999;
-}
 
-footer p {
-    margin: 10px 0;
-}
 
-footer i {
-    color: red;
-}
 
-footer a {
-    color: #3c97bf;
-    text-decoration: none;
-}
+
