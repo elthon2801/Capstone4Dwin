@@ -120,6 +120,7 @@
     height: 720px;
     background-color:gainsboro;
     margin:8% 2% 0% 2%;
+    display: inline-flex;
   }  
   #pull{
     border-radius: 5px;
@@ -150,4 +151,19 @@
   }.headTable th{
     background-color: white;
     color: #41848a;
+  }
+  
+  
+  .data{
+    width: 60%;
+    height: 300px;
+    background-color:#68A7AD;
+    margin: 0% 0% 0% 1%;
+    border-radius: 5px;
+    padding: 1% 1% 1% 2%;
+  }.data #time{
+    font-family: 'montserrat', sans-serif;
+    font-size: 70px;
+    text-align: left;
+
   }
