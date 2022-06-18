@@ -31,22 +31,23 @@
                     </tr>
                     <?php
                     $storage = array(
-                        "img" => array("/vendorDashboard/Resources/bona.jpg"),
+                        "img" => array("/vendorDashboard/Resources/jeff.jpg","/vendorDashboard/Resources/bona.jpg","/vendorDashboard/Resources/bri.jpg","/vendorDashboard/Resources/bhra.jpg","/vendorDashboard/Resources/ilah.jpg","/vendorDashboard/Resources/jayr.jpg","/vendorDashboard/Resources/jonat.jpg","/vendorDashboard/Resources/har.jpg","/vendorDashboard/Resources/mark.jpg","/vendorDashboard/Resources/jon.jpg",),
                         "name" => array("Jeffrey F. Canlas", "Elthon Jon F. Cayetano", "Brian Oniel B. Galang", "Bhrandel John M. Perez", "Ilah M. Zamora", "Ernesto Jr. Avellana", "Jonathan Vital", "Harwin Mendoza", "Mark Lagman", "Jonilo Mababa"),
-                        "area" => array("A", "B", "C", "D", "E"),
-                        "num" => array(random_int(2,25)),
-                        "cont" => array("round","box"),
-                        "type" => array("Distilled","Alkaline","Purified","Spring","Mineralized")
+                        "area" => array("A", "B", "C", "D", "E", "A", "B", "C", "D", "E"),
+                        "num" => array(random_int(2,25),random_int(2,25),random_int(2,25),random_int(2,25),random_int(2,25),random_int(2,25),random_int(2,25),random_int(2,25),random_int(2,25),random_int(2,25)),
+                        "cont" => array("round","box","round","box","round","box","round","box","round","box"),
+                        "type" => array("Distilled","Alkaline","Purified","Spring","Mineralized", "Distilled","Alkaline","Purified","Spring","Mineralized")
                     );                
 
                         for($i=0; $i<=10; $i++) {?>
                         <tr class="customerIteration">
-                            <td class="customerImage"><img src="/vendorDashboard/Resources/bona.jpg" alt=""></td>
-                            <td class="customerName"><?php echo $storage["name"][$i]?></td>
-                            <td class="customerArea"><?php echo $storage["name"][$i]?></td>
-                            <td class="numberOfOrders"><?php echo $storage["name"][$i]?></td>
-                            <td class="containerType"><?php echo $storage["name"][$i]?></td>
-                            <td class="waterType"><?php echo $storage["name"][$i]?></td>
+                            <?php $iter=random_int(0,9); ?>
+                            <td class="customerImage"><img src="<?php echo $storage["img"][$iter]?>" alt=""></td>
+                            <td class="customerName"><?php echo $storage["name"][$iter]?></td>
+                            <td class="customerArea"><?php echo $storage["area"][$iter]?></td>
+                            <td class="numberOfOrders"><?php echo $storage["num"][$iter]?></td>
+                            <td class="containerType"><?php echo $storage["cont"][$iter]?></td>
+                            <td class="waterType"><?php echo $storage["type"][$iter]?></td>
                         </tr>
                         <?php } ?>
                     

@@ -4,16 +4,19 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    
   }
 
   body{
   background: white;
+  width:100%;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	font-family: 'Montserrat', sans-serif;
 	height: 100vh;
 	margin: -20px 0 50px;
+  position: fixed;
   }
   header{
     width: 100%;
@@ -22,6 +25,7 @@
     background: #68A7AD;
     height: 80px;
     width: 100%;
+    position: fixed;
   }
 
   label.logo{
@@ -115,11 +119,13 @@
     width: 96%;
     height: 720px;
     background-color:gainsboro;
-    margin:2%;
+    margin:8% 2% 0% 2%;
   }  
   #pull{
     border-radius: 5px;
     width: 40%;
+    height: 500px;
+    overflow-y: hidden;
     background-color:#68A7AD;
   } 
   #dashboard h1{
@@ -129,7 +135,7 @@
     text-align: center;
     padding: 10px 0px;
   }#dashboard td,th{
-    font-size: 12px;
+    font-size: 11px;
     height: 30px;
     overflow: hidden;
     color: azure;
@@ -138,7 +144,8 @@
     background-color: #41848a;
     text-align: center;
   }.customerIteration img{
-    width: 30px;
+    width: 25px;
+    border-radius: 50px;
   }.headTable th{
     background-color: white;
     color: #41848a;
