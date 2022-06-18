@@ -139,12 +139,13 @@
     height: 30px;
     overflow: hidden;
     color: azure;
-    padding: 5px;
+    padding: 2px;
     margin:1px;
     background-color: #41848a;
     text-align: center;
+    border-radius: 5px;
   }.customerIteration img{
-    width: 25px;
+    width: 35px;
     border-radius: 50px;
   }.headTable th{
     background-color: white;

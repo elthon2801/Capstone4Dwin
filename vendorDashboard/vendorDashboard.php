@@ -28,6 +28,7 @@
                         <th>Area</th>
                         <th colspan="2">Order Quantity</th>
                         <th>Water Type</th>
+                        <th>Time</th>
                     </tr>
                     <?php
                     $storage = array(
@@ -41,13 +42,16 @@
 
                         for($i=0; $i<=10; $i++) {?>
                         <tr class="customerIteration">
-                            <?php $iter=random_int(0,9); ?>
+                            <?php 
+                            date_default_timezone_set("Asia/Manila");
+                            $iter=random_int(0,9); $hourMin = date('h:i a');?>
                             <td class="customerImage"><img src="<?php echo $storage["img"][$iter]?>" alt=""></td>
                             <td class="customerName"><?php echo $storage["name"][$iter]?></td>
                             <td class="customerArea"><?php echo $storage["area"][$iter]?></td>
                             <td class="numberOfOrders"><?php echo $storage["num"][$iter]?></td>
                             <td class="containerType"><?php echo $storage["cont"][$iter]?></td>
                             <td class="waterType"><?php echo $storage["type"][$iter]?></td>
+                            <td><?php echo $hourMin?> </td>
                         </tr>
                         <?php } ?>
                     
