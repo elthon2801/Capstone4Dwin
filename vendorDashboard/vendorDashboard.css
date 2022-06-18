@@ -160,10 +160,14 @@
     background-color:#68A7AD;
     margin: 0% 0% 0% 1%;
     border-radius: 5px;
-    padding: 1% 1% 1% 2%;
+    padding: 2%;
   }.data #time{
     font-family: 'montserrat', sans-serif;
     font-size: 70px;
+    color: #41848a;
+    width:fit-content;
     text-align: left;
-
+    background-color: white;
+    padding: 2%;
+    border-radius: 35px;
   }
