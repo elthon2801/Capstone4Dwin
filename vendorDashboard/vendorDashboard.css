@@ -119,11 +119,20 @@
   }  
   #pull{
     border-radius: 5px;
-    width: 25%;
+    width: 40%;
     height: inherit;
     background-color:#68A7AD;
   }
-  thead{
-    font-size: 500px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  #dashboard h1{
+    font-size: 25px;
+    color: azure;
+    font-family: 'montserrat', sans-serif;
+    text-align: center;
+    padding: 10px 0px;
+  }#dashboard td{
+    display:inline-flex;
+    width: max-content;
+    border: whitesmoke solid 1px;
+    padding: 5px 15px;
+     
   }
