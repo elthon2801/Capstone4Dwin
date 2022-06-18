@@ -7,7 +7,7 @@
   }
 
   body{
-    background: #f6f5f7;
+  background: white;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -108,4 +108,22 @@
     #check:checked ~ ul{
       left: 0;
     }
+  }
+/*...........dashboard...........*/
+
+  #dashboard{
+    width: 96%;
+    height: 720px;
+    background-color:gainsboro;
+    margin:2%;
+  }  
+  #pull{
+    border-radius: 5px;
+    width: 25%;
+    height: inherit;
+    background-color:#68A7AD;
+  }
+  thead{
+    font-size: 500px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
