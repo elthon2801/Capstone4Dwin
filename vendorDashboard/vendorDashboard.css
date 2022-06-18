@@ -120,19 +120,29 @@
   #pull{
     border-radius: 5px;
     width: 40%;
-    height: inherit;
+    height: 400px;;
     background-color:#68A7AD;
-  }
+    overflow-y: scroll;
+  } 
   #dashboard h1{
-    font-size: 25px;
+    font-size: 15px;
     color: azure;
     font-family: 'montserrat', sans-serif;
     text-align: center;
     padding: 10px 0px;
-  }#dashboard td{
-    display:inline-flex;
-    width: max-content;
-    border: whitesmoke solid 1px;
+  }#dashboard td,th{
+    font-size: 12px;
+    height: 30px;
+    overflow: hidden;
+    color: azure;
+    overflow: hidden;
     padding: 5px 15px;
-     
+    margin:1px;
+    background-color: #41848a;
+    text-align: center;
+  }.customerIteration img{
+    width: 30px;
+  }.headTable th{
+    background-color: white;
+    color: #41848a;
   }
