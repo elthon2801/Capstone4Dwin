@@ -10,15 +10,23 @@
             <nav>
                 <label class="logo">Reservoir</label>
                 <ul>
-                    <li><a class="active" href="#">Sample</a></li>
-                    <li><a href="#">Sample</a></li>
-                    <li><a href="#">Sample</a></li>
-                    <li><a href="#">Sample</a></li>
-                    <li><a href="#">Sample</a></li>
+                    <li><a class="active" href="#">Dashboard</a></li>
+                    <li><a href="#">Orders</a></li>
+                    <li><a href="#">Report</a></li>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Logout</a></li>
                 </ul>
             </nav>
         </header>
+        <aside class="sideNav">
+            <ul>
+                <li><a href="#">Generate Reports</a></li>
+                <li><a href="#">Pull Orders</a></li>
+                <li><a href="#">Push Schedule</a></li>
 
+
+            </ul>
+        </aside>
         <section id="dashboard">
             <aside id="pull">
                 <h1>Latest Pull Orders</h1>
