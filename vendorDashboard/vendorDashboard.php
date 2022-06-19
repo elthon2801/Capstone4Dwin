@@ -70,7 +70,11 @@
             </aside>
             <section class="data">
                 <h1 id="time"><?php echo $hourMin?></h1>
-                
+                <section class="money">
+                    <table>
+                        
+                    </table>
+                </section>
             </section>
         </section>
 
