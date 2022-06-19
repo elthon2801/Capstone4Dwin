@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="configmenu.css">
+    </head>
+
+    <body>
+        <div class="action">
+            <div class="profile" onclick="menuToggle();">
+                <img src="resources/img.jpg">
+            </div>
+        <div class="menu">
+            <h3>Name Here<br><span>Description</span></h3>
+            <ul>
+                <li><img src="resources/profile.png"><a href="#">My Profile</a></li>
+                <li><img src="resources/edit.png"><a href="#">Edit Profile</a></li>
+                <li><img src="resources/inbox.png"><a href="#">Inbox</a></li>
+                <li><img src="resources/settings.png"><a href="#">Settings</a></li>
+                <li><img src="resources/help.png"><a href="#">Help</a></li>
+                <li><img src="resources/logout.png"><a href="#">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+        <script>
+            function menuToggle(){
+                const toggleMenu = document.querySelector('.menu');
+                toggleMenu.classList.toggle('active');
+            }
+        </script>
+
+    </body>
+
+</html>
