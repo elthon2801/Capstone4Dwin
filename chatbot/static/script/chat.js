@@ -60,7 +60,7 @@ function getResponse() {
     let userText = $("#textInput").val();
 
     if (userText == "") {
-        userText = "I love CCA";
+        userText = "I love Code Palace!";
     }
 
     let userHtml = '<p class="userText"><span>' + userText + '</span></p>';
@@ -94,12 +94,12 @@ function sendButton() {
 }
 
 function heartButton() {
-    buttonSendText("Heart clicked!")
+    buttonSendText("Heart clicked!");
 }
 
 // Press enter to send a message
 $("#textInput").keypress(function (e) {
     if (e.which == 13) {
         getResponse();
-    }
+    } 
 });
