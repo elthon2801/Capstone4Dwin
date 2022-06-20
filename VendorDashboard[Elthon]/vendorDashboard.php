@@ -14,7 +14,7 @@
                     <li><a href="#">Orders</a></li>
                     <li><a href="#">Report</a></li>
                     <li><a href="#">Account</a></li>
-                    <li><a href="#">Logout</a></li>
+                    <li><a href="#">Logout </a></li>
                 </ul>
             </nav>
         </header>
