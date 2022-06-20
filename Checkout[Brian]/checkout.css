@@ -151,7 +151,7 @@ nav{
   }
   
   .content form .row .col .inputBox input{
-    width: 100%;
+    width: 75%;
     border:1px solid #ccc;
     padding:10px 15px;
     font-size: 15px;
@@ -178,7 +178,7 @@ nav{
   }
   
   .content form .submit-btn{
-    width: 100%;
+    width: 75%;
     padding:12px;
     font-size: 17px;
     background: #ffffff;
@@ -191,7 +191,7 @@ nav{
     background: #68A7AD;
   }
 
-  
+
 /*-------Footer-------*/
 .container{
 	max-width: 1170px;
