@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="configmenu.css">
+    </head>
+
+    <body>
+
+        <nav>
+            <label class="logo">Reservoir</label>
+            <ul>
+              <li><a  class="nava" class="active" href="#">Sample</a></li>
+              <li><a  class="nava" href="#">Sample</a></li>
+              <li><a  class="nava" href="#">Sample</a></li>
+              <li><a  class="nava"href="#">Sample</a></li>
+              <li><a  class="nava" href="#">Sample</a></li>
+              <div class="action">
+                <div class="profile" onclick="menuToggle();">
+                    <img src="resources/img.jpg">
+                </div>
+                <div class="menu">
+                    <h3>Name Here<br><span>Description</span></h3>
+                    <ul>
+                        <li><img src="resources/profile.png"><a href="profile.html">My Profile</a></li>
+                        <li><img src="resources/edit.png"><a href="edit_profile.html">Edit Profile</a></li>
+                        <li><img src="resources/inbox.png"><a href="inbox.html">Inbox</a></li>
+                        <li><img src="resources/settings.png"><a href="account_settings.html">Settings</a></li>
+                        <li><img src="resources/help.png"><a href="help.html">Help</a></li>
+                        <li><img src="resources/logout.png"><a href="#">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+            </ul>
+          </nav>
+    
+        <script>
+            function menuToggle(){
+                const toggleMenu = document.querySelector('.menu');
+                toggleMenu.classList.toggle('active');
+            }
+        </script>
+
+    </body>
+
+</html>
