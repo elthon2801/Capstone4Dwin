@@ -6,51 +6,109 @@
 	<title>Shopping Cart</title>
 	<link rel="stylesheet" type="text/css" href="shopping-cart.css">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-<div class="container">
-	<h1>Shopping Cart</h1>
-	<div class="cart">
-		<div class="products">
-			<div class="product">
-				<img src="resources/sample-pic.png">
-				<div class="product-info">
-					<h3 class="product-name">Label Here</h3>
-					<h4 class="product-price">₱ 1,000	</h4>
-					<p class="product-quantity">Qnt: <input value="1" name="">
-					<p class="product-remove">
-						<i class="fa fa-trash" aria-hidden="true"></i>
-						<span class="remove">Remove</span>
-					</p>
+<!-------------header----------------->
+	<nav>
+		<label class="logo">Reservoir</label>
+		<ul>
+		  <li><a class="active" href="#">Sample</a></li>
+		  <li><a href="#">Sample</a></li>
+		  <li><a href="#">Sample</a></li>
+		  <li><a href="#">Sample</a></li>
+		  <li><a href="#">Sample</a></li>
+		</ul>
+	  </nav>
+<!-------------Conternt---------------->
+	<div class="container">
+		<h1>Shopping Cart</h1>
+		<div class="cart">
+			<div class="products">
+				<div class="product">
+					<img src="resources/sample-pic.png">
+					<div class="product-info">
+						<h3 class="product-name">Label Here</h3>
+						<h4 class="product-price">₱ 1,000	</h4>
+						<p class="product-quantity">Qnt: <input value="1" name="">
+						<p class="product-remove">
+							<i class="fa fa-trash" aria-hidden="true"></i>
+							<span class="remove">Remove</span>
+						</p>
+					</div>
+				</div>
+				<div class="product">
+					<img src="resources/sample-pic.png">
+					<div class="product-info">
+						<h3 class="product-name">Label Here</h3>
+						<h4 class="product-price">₱ 2,000</h4>
+						<p class="product-quantity">Qnt: <input value="1" name="">
+						<p class="product-remove">
+							<i class="fa fa-trash" aria-hidden="true"></i>
+							<span class="remove">Remove</span>
+						</p>
+					</div>
 				</div>
 			</div>
-			<div class="product">
-				<img src="resources/sample-pic.png">
-				<div class="product-info">
-					<h3 class="product-name">Label Here</h3>
-					<h4 class="product-price">₱ 2,000</h4>
-					<p class="product-quantity">Qnt: <input value="1" name="">
-					<p class="product-remove">
-						<i class="fa fa-trash" aria-hidden="true"></i>
-						<span class="remove">Remove</span>
-					</p>
-				</div>
+			<div class="cart-total">
+				<p>
+					<span>Total Price</span>
+					<span>₱ 3,000</span>
+				</p>
+				<p>
+					<span>Number of Items</span>
+					<span>2</span>
+				</p>
+				<a href="#">Proceed to Checkout</a>
 			</div>
-		</div>
-		<div class="cart-total">
-			<p>
-				<span>Total Price</span>
-				<span>₱ 3,000</span>
-			</p>
-			<p>
-				<span>Number of Items</span>
-				<span>2</span>
-			</p>
-			<a href="#">Proceed to Checkout</a>
 		</div>
 	</div>
-</div>
+
+
+<!----------------Footer----------------->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col">
+					<h4>company</h4>
+					<ul>
+						<li><a href="#">about us</a></li>
+						<li><a href="#">our services</a></li>
+						<li><a href="#">privacy policy</a></li>
+						<li><a href="#">affiliate program</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>get help</h4>
+					<ul>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">shipping</a></li>
+						<li><a href="#">returns</a></li>
+						<li><a href="#">order status</a></li>
+						<li><a href="#">payment options</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>online shop</h4>
+					<ul>
+						<li><a href="#">Alkaline</a></li>
+						<li><a href="#">Distilled water</a></li>
+						<li><a href="#">Purified water</a></li>
+						<li><a href="#">Mineral water</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>follow us</h4>
+					<div class="social-links">
+						<a href="#"><i class="fa fa-facebook-f"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 </body>
 </html>
