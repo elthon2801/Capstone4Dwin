@@ -25008,6 +25008,14 @@ ul{
 @media(max-width: 574px){
   .footer-col{
     width: 100%;
-}
-}
+}}
+
 /*# sourceMappingURL=dashboard-free.css.map */
+#sidenav-main{
+  position: fixed;
+  overflow-y: hidden;
+  height: 1000px;
+}
+body{
+  overflow-y: hidden;
+}
