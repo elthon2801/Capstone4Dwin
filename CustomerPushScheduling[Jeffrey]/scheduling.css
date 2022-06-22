@@ -81,6 +81,9 @@ body {
         -o-transform: scale(1.03);
         box-shadow: 10px 12px 15px ;
     }
+    .form-field{
+        font-color: black;
+    }
     @font-face {
         font-family: 'Raleway';
         font-style: normal;
