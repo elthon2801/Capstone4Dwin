@@ -55,7 +55,7 @@ var barChartOptions = {
     show: false
   },
   xaxis: {
-    categories: ["Laptop", "Phone", "Monitor", "Headphones", "Camera"],
+    categories: ["Alkaline", "Distilled", "Purified", "Mineral", "Others"],
   },
   yaxis: {
     title: {
