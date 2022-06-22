@@ -1,13 +1,14 @@
 th{
-    text-align:left;
+    text-align:center;
     
 
 }
 
+
 body{
 font-size: 30pt;
 color:white;
-background-color: #68A7AD;
+background-color: white;
 
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
@@ -35,7 +36,7 @@ th{
 body{
 font-size: 30pt;
 color:white;
-background-color: #68A7AD;
+background-color: white;
 
 }
 
@@ -258,10 +259,11 @@ ul{
 
 div {
     text-align: center;
-    border-style: solid;
+    border-style: double;
     margin-left: 300px;
+    margin-right: 300px;
     width:60%;
-    background-color: #bdcebe
+    background-color: #68A7AD
 }
 #alignment{
     margin-left: auto;
